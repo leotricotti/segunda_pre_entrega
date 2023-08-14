@@ -1,0 +1,12 @@
+.trash-icon {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  margin-left: 1rem !important;
+}

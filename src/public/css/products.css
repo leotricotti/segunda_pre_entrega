@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.margin {
+  margin-bottom: 10px;
+}
+
+.w-100 {
+  height: 290px;
+  object-fit: cover;
+}
+
+.border-start {
+  border-left: 1px solid transparent !important;
+}
+
+@media (min-width: 768px) {
+  .w-100 {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .border-start {
+    border-left: 1px solid #dee2e6 !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .w-100 {
+    height: 170px;
+    object-fit: cover;
+  }
+}
